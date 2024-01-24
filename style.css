@@ -1,0 +1,23 @@
+/* *, .container{
+    background-color: rgb(10, 82, 10)!important;
+} */
+
+.SelectionQueue{
+    background-color: rgb(175, 212, 175)!important;
+    width: fit-content;
+    padding: 5rem;
+}
+
+.nftCount{
+    margin-left: 25%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    border: none;
+}
+
+.bounce-btn{
+    margin: 2rem 0;
+}
