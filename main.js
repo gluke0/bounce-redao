@@ -21,3 +21,11 @@ document.querySelector('.super-bounce').addEventListener('click',()=>{
     document.querySelector('.nftCount').classList.remove('superBounce');
     });
   });
+
+document.querySelector('.shakebtn').addEventListener('click',()=>{
+    document.querySelector('.nftCount').classList.add('shake');
+  
+    document.querySelector('.nftCount').addEventListener('animationend',()=>{
+    document.querySelector('.nftCount').classList.remove('shake');
+});
+});
