@@ -35,6 +35,17 @@ button{
    }
   }
   
-  .bounce{
-   animation: bounce 1s;
+.bounce{
+    animation: bounce 1s;
+}
+
+@keyframes singleBounce{
+    0% { transform: translateY(0); }
+    15% {transform: translateY(3px); }
+    90% { transform: translateY(-3px); }
+    100% { transform: translateY(-4px); }
   }
+  
+.single-bounce{
+    animation: singleBounce 0.2s;
+}
