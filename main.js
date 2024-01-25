@@ -15,9 +15,9 @@ document.querySelector('.one-bounce').addEventListener('click',()=>{
   });
   
 document.querySelector('.super-bounce').addEventListener('click',()=>{
-    document.querySelector('.nftCount').classList.add('bounce');
+    document.querySelector('.nftCount').classList.add('superBounce');
   
     document.querySelector('.nftCount').addEventListener('animationend',()=>{
-    document.querySelector('.nftCount').classList.remove('bounce');
+    document.querySelector('.nftCount').classList.remove('superBounce');
     });
   });
